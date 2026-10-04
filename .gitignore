@@ -3,3 +3,14 @@ frontend/node_modules
 frontend/dist
 .idea
 .vscode
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+application-local.properties
+application-local.yml
